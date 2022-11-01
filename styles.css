@@ -28,7 +28,7 @@ a {
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
     text-align: right;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     line-height: 32px;
 }
 .button::after {
@@ -99,7 +99,7 @@ a {
     margin-left: -36px;
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(230, 230, 230, 1);
-    border-radius: 03px3px0;
+    border-radius: 0 3px 3px 0;
 }
 .header__cart {
     margin-right: 26px;
@@ -118,7 +118,7 @@ a {
     font-weight: 300;
     color: rgba(34, 34, 34, 1);
     text-align: center;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     line-height: 32px;
     text-transform: uppercase;
 }
@@ -127,7 +127,7 @@ a {
     font-weight: 900;
     color: rgba(241, 109, 127, 1);
     text-align: center;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     line-height: 32px;
     text-transform: uppercase;
 
@@ -178,14 +178,14 @@ a {
     font-weight: 900;
     color: rgba(34, 34, 34, 1);
     text-align: right;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 .promo__content_h2_red {
     font-size: 40px;
     font-weight: 900;
     color: rgba(241, 109, 127, 1);
     text-align: right;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 .categories {
@@ -241,14 +241,14 @@ a {
     font-size: 18px;
     font-weight: 900;
     color: rgba(34, 34, 34, 1);
-    letter-spacing: 0px;
+    letter-spacing: 0;
     text-transform: uppercase;
 }
 .category__description_red {
     font-size: 30px;
     font-weight: 900;
     color: rgba(241, 109, 127, 1);
-    letter-spacing: 0px;
+    letter-spacing: 0;
     text-transform: uppercase;
 }
 
@@ -269,14 +269,14 @@ a {
     font-weight: bold;
     color: rgba(34, 34, 34, 1);
     text-align: center;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 .gallery__title_p {
     font-size: 14px;
     font-weight: 400;
     color: rgba(159, 159, 159, 1);
     text-align: center;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     /* line-height: 54px; */
 }
 .gallery__items {
@@ -319,7 +319,6 @@ a {
     width: 123px;
     background: none;
     border: 1px solid rgba(255, 255, 255, 1);
-    font-family: 'Lato';
     font-size: 13px;
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
@@ -327,7 +326,7 @@ a {
     transition: all .1s ease-out;
 }
 .item:hover .item__elements__button_cart:active {
-    box-shadow: 0px 0px 14px 18px rgba(255, 255, 255, 0.19) inset;
+    box-shadow: 0 0 14px 18px rgba(255, 255, 255, 0.19) inset;
 
 }
 .item:hover .item__elements__img {
@@ -389,7 +388,7 @@ a {
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
     text-align: center;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     line-height: 54px;
 
 }
@@ -400,12 +399,12 @@ a {
     filter: brightness(80%);
 }
 
-.bunner {
+.banner {
     height: 529px;
     width: 100%;
     display: flex;
 }
-.bunner__left-side {
+.banner__left-side {
     height: 529px;
     width: 767px;
     background-image: url(https://raw.githubusercontent.com/alllekseev/static/master/imgE-shop/bunner_img.png);
@@ -413,31 +412,31 @@ a {
     background-repeat: no-repeat;
     
 }
-.bunner__left-side__text {
+.banner__left-side__text {
     padding-top: 146px;
     padding-left: 40px;
-    height: 78px;
+    height: max-content;
 }
-.bunner__left-side__text_h3 {
+.banner__left-side__text_h3 {
     font-size: 54px;
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
-.bunner__left-side__text_span {
+.banner__left-side__text_span {
     font-size: 54px;
     font-weight: bold;
     color: rgba(241, 109, 127, 1);
-    letter-spacing: 0px;
+    letter-spacing: 0;
     text-transform: uppercase;
 }
-.bunner__left-side__text_p {
+.banner__left-side__text_p {
     font-size: 32px;
     color: rgba(255, 255, 255, 1);
-    letter-spacing: 0px;
+    letter-spacing: 0;
     text-transform: uppercase;
 }
-.bunner__right-side {
+.banner__right-side {
     width: 373px;
     background-color: #1c1c1f;
     display: flex;
@@ -445,33 +444,32 @@ a {
     align-items: center;
     justify-content: space-around;
 }
-.bunner__right-side__feature-box {
+.banner__right-side__feature-box {
     position: relative;
     height: 103px;
     width: 294px;
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
 
 }
-.bunner__right-side__feature-box_icon {
+.banner__right-side__feature-box_icon {
     font-size: 32px;
     color:rgb(231, 79, 99)
 }
-.bunner__right-side__feature-box__text {
+.banner__right-side__feature-box__text {
     padding-left: 33px;
 }
-.bunner__right-side__feature-box__text_h3 {
+.banner__right-side__feature-box__text_h3 {
     font-size: 20px;
     font-weight: bold;
     color: rgba(251, 251, 251, 1);
-    letter-spacing: 0px;
+    letter-spacing: 0;
     padding-bottom: 17px;
 }
-.bunner__right-side__feature-box__text_p {
+.banner__right-side__feature-box__text_p {
     font-size: 14px;
     font-weight: 300;
     color: rgba(251, 251, 251, 1);
-    letter-spacing: 0px;
+    letter-spacing: 0;
     line-height: 24px;
 }
