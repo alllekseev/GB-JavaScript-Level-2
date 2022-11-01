@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b53c8c5019.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header center">
+        <div class="header__left">
+            <a href="#" class="logo">
+                <img class="logo__img" src="img/logo.png" alt="logo">
+                <p class="logo__p">Bran</p>
+                <p class="logo__d">D</p>
+            </a>
+            <form class="header__form" action="">
+                <button class="header__browse">Browse</button>
+                <input name="textfield" class="header__input" type="text" placeholder="Search for Item...">
+                <button class="header__button"><img src="img/search.png" alt="search"></button>
+            </form>
+        </div>
+        <div class="header__right">
+            <img class="header__cart" src="img/cart.png" alt="cart">
+            <button href="#" class="button">My account</button>
+        </div>
+    </header>
+    <nav class="nav center">
+        <ul class="menu">
+            <li class="menu__list"><a href="#" class="menu__link">Home</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">Man</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">Women</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">Kids</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">Accoseriese</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">Featured</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">Hot</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">Deals</a></li>
+        </ul>
+    </nav>
+    <div class="promo center">
+        <div class="promo__content">
+            <h1 class="promo__content_h1">The Brand</h1>
+            <span class="promo__content_h2">OF LUXURIOUS</span>
+            <span class="promo__content_h2_red">FASHION</span>
+        </div>
+    </div>
+    <main class="categories center">
+        <div class="categories__category category__man">
+            <div class="category__description">
+                <p class="category__description_black">Hot deal</p>
+                <p class="category__description_red">For men</p>
+            </div>
+        </div>
+        <div class="categories__category category__woman">
+            <div class="category__description">
+                <p class="category__description_black">30% offer</p>
+                <p class="category__description_red">Women</p>
+            </div>
+        </div>
+        <div class="categories__category category__kid">
+            <div class="category__description">
+                <p class="category__description_black">new arrivals</p>
+                <p class="category__description_red">FOR kids</p>
+            </div>
+        </div>
+        <div class="categories__category category__accessories">
+            <div class="category__description">
+                <span class="category__description_black">LUXURIOUS & trendy</span>
+                <span class="category__description_red">ACCESSORIES</span>
+            </div>
+        </div>
+        
+    </main>
+    <section class="gallery center">
+        <div class="gallery__title">
+            <h2 class="gallery__title_h2">Fetured Items</h2>
+            <p class="gallery__title_p">Shop for items based on what we featured in this week</p>
+        </div>
+        <div class="gallery__items">
+            <div class="item">
+                <div class="item__elements">
+                    <div class="item__elements__button">
+                        <button class="item__elements__button_cart" id="buttonItem">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <img class="item__elements__img" src="https://raw.githubusercontent.com/alllekseev/static/master/img/main_index_img_1.png" alt=""></img>
+                </div>
+                <div class="item__description">
+                    <!-- Сделать название ссылкой на товар -->
+                    <p class="item__description__name">Mango People T-shirt</p>
+                    <div class="item__description__own">
+                        <span class="item__description__own_price">$52.00</span>
+                        <img class="item__description__own_star" src="https://raw.githubusercontent.com/alllekseev/static/master/img/stars.png" alt="stars" id="ratingStars">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__elements">
+                    <div class="item__elements__button">
+                        <button class="item__elements__button_cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <img class="item__elements__img" src="https://raw.githubusercontent.com/alllekseev/static/master/img/main_index_img_2.png" alt=""></img>
+                </div>
+                <div class="item__description">
+                    <p class="item__description__name">Mango People T-shirt</p>
+                    <div class="item__description__own">
+                        <span class="item__description__own_price">$52.00</span>
+                        <img class="item__description__own_star" src="https://raw.githubusercontent.com/alllekseev/static/master/img/stars.png" alt="stars" id="ratingStars">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__elements">
+                    <div class="item__elements__button">
+                        <button class="item__elements__button_cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <img class="item__elements__img" src="https://raw.githubusercontent.com/alllekseev/static/master/img/main_index_img_3.png" alt=""></img>
+                </div>
+                <div class="item__description">
+                    <p class="item__description__name">Mango People T-shirt</p>
+                    <div class="item__description__own">
+                        <span class="item__description__own_price">$52.00</span>
+                        <img class="item__description__own_star" src="https://raw.githubusercontent.com/alllekseev/static/master/img/stars.png" alt="stars" id="ratingStars">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__elements">
+                    <div class="item__elements__button">
+                        <button class="item__elements__button_cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <img class="item__elements__img" src="https://raw.githubusercontent.com/alllekseev/static/master/img/main_index_img_4.png" alt=""></img>
+                </div>
+                <div class="item__description">
+                    <p class="item__description__name">Mango People T-shirt</p>
+                    <div class="item__description__own">
+                        <span class="item__description__own_price">$52.00</span>
+                        <img class="item__description__own_star" src="https://raw.githubusercontent.com/alllekseev/static/master/img/stars.png" alt="stars" id="ratingStars">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__elements">
+                    <div class="item__elements__button">
+                        <button class="item__elements__button_cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <img class="item__elements__img" src="https://raw.githubusercontent.com/alllekseev/static/master/img/main_index_img_5.png" alt=""></img>
+                </div>
+                <div class="item__description">
+                    <p class="item__description__name">Mango People T-shirt</p>
+                    <div class="item__description__own">
+                        <span class="item__description__own_price">$52.00</span>
+                        <img class="item__description__own_star" src="https://raw.githubusercontent.com/alllekseev/static/master/img/stars.png" alt="stars" id="ratingStars">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__elements">
+                    <div class="item__elements__button">
+                        <button class="item__elements__button_cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <img class="item__elements__img" src="https://raw.githubusercontent.com/alllekseev/static/master/img/main_index_img_6.png" alt=""></img>
+                </div>
+                <div class="item__description">
+                    <p class="item__description__name">Mango People T-shirt</p>
+                    <div class="item__description__own">
+                        <span class="item__description__own_price">$52.00</span>
+                        <img class="item__description__own_star" src="https://raw.githubusercontent.com/alllekseev/static/master/img/stars.png" alt="stars" id="ratingStars">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__elements">
+                    <div class="item__elements__button">
+                        <button class="item__elements__button_cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <img class="item__elements__img" src="https://raw.githubusercontent.com/alllekseev/static/master/img/main_index_img_7.png" alt=""></img>
+                </div>
+                <div class="item__description">
+                    <p class="item__description__name">Mango People T-shirt</p>
+                    <div class="item__description__own">
+                        <span class="item__description__own_price">$52.00</span>
+                        <img class="item__description__own_star" src="https://raw.githubusercontent.com/alllekseev/static/master/img/stars.png" alt="stars" id="ratingStars">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__elements">
+                    <div class="item__elements__button">
+                        <button class="item__elements__button_cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <img class="item__elements__img" src="https://raw.githubusercontent.com/alllekseev/static/master/img/main_index_img_8.png" alt=""></img>
+                </div>
+                <div class="item__description">
+                    <p class="item__description__name">Mango People T-shirt</p>
+                    <div class="item__description__own">
+                        <span class="item__description__own_price">$52.00</span>
+                        <img class="item__description__own_star" src="https://raw.githubusercontent.com/alllekseev/static/master/img/stars.png" alt="stars" id="ratingStars">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="gallery__button">
+            Browse All Product
+            <i class="fas fa-long-arrow-alt-right"></i>
+        </button>
+    </section>
+    <aside class="bunner center">
+        <div class="bunner__left-side">
+            <div class="bunner__left-side__text">
+                <h3 class="bunner__left-side__text_h3">30% <span class="bunner__left-side__text_span">Offer</span></h3>
+                <p class="bunner__left-side__text_p">For women</p>
+            </div>
+        
+        </div>
+        <div class="bunner__right-side">
+            <div class="bunner__right-side__feature-box">
+                <i class="fas fa-truck bunner__right-side__feature-box_icon"></i>
+                <div class="bunner__right-side__feature-box__text">
+                    <h3 class="bunner__right-side__feature-box__text_h3">Free Delivery</h3>
+                    <p class="bunner__right-side__feature-box__text_p">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </div>
+            </div>
+            <div class="bunner__right-side__feature-box">
+                <i class="fab fa-salesforce bunner__right-side__feature-box_icon"></i>
+                <div class="bunner__right-side__feature-box__text">
+                    <h3 class="bunner__right-side__feature-box__text_h3">Free Delivery</h3>
+                    <p class="bunner__right-side__feature-box__text_p">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </div>
+            </div>
+            <div class="bunner__right-side__feature-box">
+                <i class="fas fa-crown bunner__right-side__feature-box_icon"></i>
+                <div class="bunner__right-side__feature-box__text">
+                    <h3 class="bunner__right-side__feature-box__text_h3">Free Delivery</h3>
+                    <p class="bunner__right-side__feature-box__text_p">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+    
+    <script src="script.js"></script>
+</body>
+</html>
