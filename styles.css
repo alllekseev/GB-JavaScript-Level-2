@@ -282,6 +282,30 @@ a {
   grid-template-rows: repeat(2, 345px);
   gap: 30px 30px;
 }
+.gallery__button {
+  margin-top: 79px;
+  margin-bottom: 113px;
+  height: 48px;
+  width: 212px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(241, 109, 127);
+  border: none;
+  transition: all 0.2s;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 54px;
+}
+.gallery__button:hover {
+  background-color: rgb(231, 79, 99);
+}
+.gallery__button:active {
+  filter: brightness(80%);
+}
 
 .item {
   transition: all 0.2s ease-in;
@@ -367,31 +391,6 @@ a {
 /* TODO .item__description__own_star:hover { // сделать скрытие звёзд, возможно убрать div и оставить только img
     display: block;
 } */
-.gallery__button {
-  margin-top: 79px;
-  margin-bottom: 113px;
-  height: 48px;
-  width: 212px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(241, 109, 127);
-  border: none;
-  transition: all 0.2s;
-  font-size: 16px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 54px;
-}
-.gallery__button:hover {
-  background-color: rgb(231, 79, 99);
-}
-.gallery__button:active {
-  filter: brightness(80%);
-}
-
 .banner {
   height: 529px;
   width: 100%;
