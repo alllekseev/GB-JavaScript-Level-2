@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cfa5c66-38ec-4f64-adc8-8f7ae8233624" name="Changes" comment="fix styles">
+    <list default="true" id="5cfa5c66-38ec-4f64-adc8-8f7ae8233624" name="Changes" comment="Сделал первый урок">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +20,14 @@
       <list>
         <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="Lesson1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,10 +44,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Geekbrains/GB-JavaScript-Level-2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/olegalekseev/Documents/geekbrains/GB-JavaScript-Level-2&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -64,7 +68,9 @@
       <updated>1656273611248</updated>
       <workItem from="1656273612735" duration="4442000" />
       <workItem from="1667414366073" duration="2477000" />
-      <workItem from="1668249770348" duration="3638000" />
+      <workItem from="1668249770348" duration="6223000" />
+      <workItem from="1668280968172" duration="581000" />
+      <workItem from="1668324769535" duration="1941000" />
     </task>
     <task id="LOCAL-00001" summary="fix layout">
       <created>1667333634944</created>
@@ -94,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667416843813</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Сделал первый урок">
+      <created>1668253595811</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668253595811</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +129,8 @@
     <MESSAGE value="fix" />
     <MESSAGE value="перенес стили на препроцессор" />
     <MESSAGE value="fix styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix styles" />
+    <MESSAGE value="Сделал первый урок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал первый урок" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
